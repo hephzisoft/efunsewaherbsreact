@@ -5,7 +5,7 @@ const Nav = () => {
     <header>
 
       <nav>
-        <h3 className="font-bold text-3xl font-roboto font-primary absolute top-5 left-20 font-courgette">
+        <h3 className="font-bold text-3xl  font-primary absolute top-5 left-20 font-courgette">
           Efunsewa <span className="text-primary">Herbs</span>
         </h3>
 
