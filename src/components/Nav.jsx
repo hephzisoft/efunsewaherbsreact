@@ -8,14 +8,14 @@ const Nav = () => {
   const [navItem] = useState(navLinks);
    return (
      <header>
-       <nav className="flex padding-x sm:pt-10 items-center absolute z-10 w-full">
+       <nav className="flex padding-x sm:pt-10 items-center absolute z-10 w-full max-lg:mt-10 max-lg:justify-between">
          <Link to="/">
            <h3 className="font-bold text-3xl font-primary text-white ms-6 font-courgette">
              Efunsewa <span className="text-primary">Herbs</span>
            </h3>
          </Link>
 
-         <ul className="flex-1 flex gap-16 items-center max-lg:hidden justify-center text-white font-roboto">
+         <ul className="flex-1 flex gap-10 items-center max-lg:hidden justify-center text-white font-roboto">
            {navItem.map((link) => (
              <li key={link.href}>
                <Link
@@ -32,8 +32,8 @@ const Nav = () => {
            ))}
          </ul>
 
-         <div className="hidden max-lg:block justify-end">
-           <img src={hamburger} alt="" width={24} height={24} />
+         <div className="hidden max-lg:block justify-end text-center ">
+           <img src={hamburger} alt="" width={25} height={25} />
          </div>
        </nav>
      </header>
