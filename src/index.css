@@ -8,7 +8,7 @@
 
 @layer utilities{
     .padding-x {
-        @apply sm:px-16 px-8;
+        @apply sm:px-10 px-8;
       }
     
       .padding-y {
