@@ -14,6 +14,9 @@ export default {
     colors: {
       primary: '#72BE18'
   },
+  backgroundImage:{
+    'hero':"url('assets/images/bg-hero1.jpg')"
+  },
    plugins: [],
   }
 }}
