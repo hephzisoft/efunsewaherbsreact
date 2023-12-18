@@ -9,8 +9,11 @@ export default {
       fontFamily: {
         caveat: ["Caveat", "cursive"],
         roboto: ["Roboto", "sans-serif"],
+        courgette: ["Courgette", "cursive"],
     },
+    colors: {
+      primary: '#72BE18'
   },
    plugins: [],
   }
-}
+}}

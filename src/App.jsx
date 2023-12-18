@@ -1,15 +1,11 @@
-
-
+import Nav from "./components/Nav";
 
 function App() {
-
   return (
-    < >
-      <div className="bg-red-900 font-caveat">
-        Hello world!
-      </div>
+    <>
+      <Nav />
     </>
-  )
+  );
 }
 
 export default App
