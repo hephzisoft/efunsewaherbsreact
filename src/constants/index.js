@@ -7,5 +7,5 @@ export const navLinks = [
 
 
 export const features = [
-    
+    {icon: '', title: '', note:''}
 ]
