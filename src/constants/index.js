@@ -1,3 +1,5 @@
+import { truck } from "../assets/icons"
+
 export const navLinks = [
     {href: '/',label: 'Home'},
     {href: '/shop',label: 'Shop'},
@@ -7,5 +9,10 @@ export const navLinks = [
 
 
 export const features = [
-    {icon: '', title: '', note:''}
+    {imgUrl: truck, title: 'Rooted in earth', note:'Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.'},
+    {imgUrl: truck, title: 'Woven in harmony', note:'Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.'},
+    {imgUrl: truck, title: 'Flourishing with earth', note:'Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.'},
+    {imgUrl: truck, title: 'Fast & Fresh Delivery', note:'Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.'},
+    {imgUrl: truck, title: 'Healthy Product', note:'Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.'},
+    {imgUrl: truck, title: 'Natural Process', note:'Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum.'},
 ]
