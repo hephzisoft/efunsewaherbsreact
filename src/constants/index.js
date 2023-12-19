@@ -4,3 +4,8 @@ export const navLinks = [
     {href: '/about',label: 'About us'},
     {href: '/contact',label: 'Contact'},
 ]
+
+
+export const features = [
+    
+]

@@ -13,7 +13,7 @@ const Nav = () => {
   }
    return (
      <header>
-       <nav className="flex padding-x items-center absolute z-10 w-full max-lg:mt-10 max-lg:justify-between">
+       <nav className="flex padding-x items-center absolute z-10 w-full max-lg:mt-10 max-lg:justify-between ">
          <Link to="/">
            <h3 className="font-bold text-3xl font-primary text-white  font-courgette">
              Efunsewa <span className="text-primary">Herbs</span>
