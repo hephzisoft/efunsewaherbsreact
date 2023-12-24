@@ -19,9 +19,9 @@ export default {
   },screens: {
     'sm': '360px',
 
-    'md': '740px',
+    'md': '768px',
 
-    'lg': '1024px',
+    'lg': '992px',
       },
    plugins: [],
   }
