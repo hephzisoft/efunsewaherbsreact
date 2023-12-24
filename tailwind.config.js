@@ -19,7 +19,7 @@ export default {
   },screens: {
     'sm': '360px',
 
-    'md': '768px',
+    'md': '740px',
 
     'lg': '992px',
       },

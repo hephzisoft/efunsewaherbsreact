@@ -6,15 +6,13 @@ const HomeFeatures = () => {
       {features.map((fs, index) => (
         <div
           key={fs.title}
-          className={` w-full p-6 items-center flex flex-col h-[16rem] 
-                    ${(index + 1) % 3 !== 0 && "lg:border-r"} ${
-            index < 3 && "lg:border-b"
-          } 
-                    ${(index + 1) % 2 !== 0 && "md:border-r"} ${
-            index <= 3 && "md:border-b"
-          } 
-                    ${index < 5 && "sm:border-b"}
-                `}
+          className={`w-full p-6 items-center flex flex-col h-[16rem]  
+          ${index < 5 && "sm:border-b"}
+          ${(index + 1) % 2 !== 0 && "md:border-r"} 
+          ${index < 4 && "md:border-b"}
+          ${(index + 1) % 3 !== 0 && "lg:border-r"} 
+          ${index < 3 && "lg:border-b"}
+        `}
         >
           <img
             src={fs.imgUrl}
