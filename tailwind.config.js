@@ -16,7 +16,13 @@ export default {
   },
   backgroundImage:{
     'hero':"url('assets/images/bg-hero1.jpg')"
-  },
+  },screens: {
+    'sm': '360px',
+
+    'md': '740px',
+
+    'lg': '1440px',
+      },
    plugins: [],
   }
 }}
