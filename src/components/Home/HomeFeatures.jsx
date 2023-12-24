@@ -7,7 +7,14 @@ const HomeFeatures = () => {
 
              {features.map((fs,index)=>(
             
-                <div key={fs.title} className={` w-full max-md:${index===5 ?'': 'border-b'} lg:${index !== 2 && index !== 5? 'border-r':''} lg:${index === 0 ? 'border-r' : ''} lg:${index <3   ?' border-b-2' :''} max-lg:${index > 3 ? '': 'border-b'} max-lg:${index ===1 || index===3 || index === 5 ? 'border-l': ''}  p-6 items-center flex flex-col h-[16rem]`}>
+                <div key={fs.title} className={` w-full p-6 items-center flex flex-col h-[16rem] 
+                    ${(index+1)%3  !== 0 && 'lg:border-r'} ${index < 3 && 'lg:border-b'} 
+                    ${(index+1)%2  !== 0 && 'md:border-r'} ${index < 4 && 'md:border-b'} 
+                    ${index <5 && 'sm:border-b'}
+
+                    
+
+                `}>
 
                     <img src={fs.imgUrl} alt={`${fs.title} image`} width={80} height={80} />
                     <h2 className="font-roboto font-[500] font-3xl mt-2 ">{fs.title}</h2>
