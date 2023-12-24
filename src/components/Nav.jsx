@@ -13,9 +13,9 @@ const Nav = () => {
   }
    return (
      <header>
-       <nav className="flex padding-x items-center absolute z-10 w-full max-lg:mt-10 max-lg:justify-between ">
+       <nav className="flex padding-x mt-8 flex-row items-center absolute z-10 w-full max-lg:mt-10 max-lg:justify-between ">
          <Link to="/">
-           <h3 className="font-bold text-3xl font-primary text-white  font-courgette">
+           <h3 className="font-bold text-3xl font-primary text-white font-courgette">
              Efunsewa <span className="text-primary">Herbs</span>
            </h3>
          </Link>
@@ -25,11 +25,7 @@ const Nav = () => {
              <li key={link.href}>
                <Link
                  to={link.href}
-                 className={`cursor-pointer text-xl font-courgette tracking-wide ${
-                   location.pathname === link.href
-                     ? "underline hover:no-underline"
-                     : ""
-                 } hover:underline active:underline`}
+                 className={`cursor-pointer text-xl font-courgette tracking-wide `}
                >
                  {link.label}
                </Link>
