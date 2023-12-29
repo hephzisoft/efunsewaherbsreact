@@ -7,11 +7,12 @@ const HomeFeatures = () => {
         <div
           key={fs.title}
           className={`w-full p-6 items-center flex flex-col h-[16rem]  
-          ${index < 5 && "sm:border-b"}
+          ${index < 5 && "border-b"}
+          
           ${(index + 1) % 2 !== 0 && "md:border-r"} 
-          ${index < 4 && "md:border-b"}
-          ${(index + 1) % 3 !== 0 && "lg:border-r"} 
-          ${index < 3 && "lg:border-b"}
+          ${index < 4 ? "md:border-b": 'border-b-0'}
+          ${(index + 1) % 3 !== 0 ? "lg:border-r" :'lg:border-r-0'} 
+          ${index < 3 ? "lg:border-b" : 'lg:border-b-0'}
         `}
         >
           <img
