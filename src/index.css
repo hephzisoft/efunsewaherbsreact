@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Unna&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .padding-x {
+    @apply sm:px-10 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-20 py-12;
+  }
+
+
+}
