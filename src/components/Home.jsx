@@ -6,7 +6,7 @@ import Service from "./Service";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       {/* Hero section */}
       <div className="bg-hero bg-cover h-[100vh] items-center flex text-center justify-center bg-center w-full bg-red">
         <div className="block">
@@ -52,10 +52,10 @@ const Home = () => {
             height={900}
           />
         </div>
-        <div className="w-[50%] ms-[6rem]">
+        <div className="lg:w-[50%] sm:w-[100%] lg:ms-[4rem] max-lg:px-5 sm:mt-2">
           <h3 className="font-unna text-xl font-light">OUR STORY</h3>
           <p className="font-unna text-3xl mt-3">For People Who Love Products</p>
-          <div className="font-dmsans w-[70%] mt-4">
+          <div className="font-dmsans w-[70%] sm:w-[100%] mt-4">
             <p>
               Vivamus quam sociis tristique diam at donec nisl, hendrerit leo
               nunc at velit lacinia porttitor a nulla tellus ultrices varius
@@ -77,7 +77,7 @@ const Home = () => {
       {/* Testimonials */}
 
       {/* Our Services */}
-      <div className="flex justify-around">
+      <div className=" justify-around sm:block md:flex mt-[10rem] sm:px-6">
         {services.map((service)=> {
           return <Service key={service.title} icon={service.icon} title={service.title} desc={service.desc}/>
         })}

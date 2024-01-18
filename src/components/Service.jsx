@@ -13,7 +13,7 @@ newIcon= faLock;
 newIcon= faHandHoldingHeart;
 }
   return (
-    <div className="flex">
+    <div className="flex sm:mb-4">
     <FontAwesomeIcon icon={newIcon} className="bg-primary text-white rounded-full p-5 mr-4"/>
        <div className="block">
        <p className="font-unna text-xl">{title}</p>
