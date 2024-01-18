@@ -1,3 +1,4 @@
+import { hero3 } from "../assets/images";
 import { products, services } from "../constants";
 import Button from "./Button";
 import Card from "./Card";
@@ -46,8 +47,8 @@ const Home = () => {
       <div className="lg:flex mt-[10rem] sm:block w-full mb-10  items-center">
         <div className="w-[50%}">
           <img
-            src="/src/assets/images/bg-hero3.jpg"
-            alt=""
+            src={hero3}
+            alt="our story image"
             width={800}
             height={900}
           />
