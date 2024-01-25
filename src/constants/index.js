@@ -1,5 +1,4 @@
 import { truck } from "../assets/icons"
-import { faLock, faBox, faHandHoldingHeart } from "@fortawesome/free-solid-svg-icons"
 
 export const navLinks = [
     {href: '/',label: 'Home'},
@@ -26,5 +25,15 @@ export const services = [
         icon: "faBox", title: 'DELIVERED WITH CARE', desc: 'Donec sit amet neque id nisl.'
     },{
         icon:"faHandHoldingHeart", title: 'EXCELLENT', desc: 'Amet neque id nisl ullamcorper.'
+    }
+]
+
+export const contact = [
+    {
+        icon:"location-dot", title:'VISIT US', desc: '1234 Somewhere Road, Nashville, TN 00000'
+    },{
+        icon :'phone',title:'CALL US', desc: '+00 0000 000000'
+    },{
+        icon:'envelope', title:'EMAIL US', desc: 'efunsewaherbs@gmail.com'
     }
 ]

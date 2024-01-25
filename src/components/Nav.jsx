@@ -13,7 +13,7 @@ const Nav = () => {
   }
    return (
      <header>
-       <nav className={`flex padding-x mt-8 flex-row items-center absolute font-dmsans w-full max-lg:mt-10 max-lg:justify-between ${pathName !== '/' && 'border-b-2 pb-4'} `}>
+       <nav className={`flex padding-x mt-8 flex-row items-center ${pathName === '/' && 'absolute'} font-dmsans w-full max-lg:mt-10 max-lg:justify-between ${pathName !== '/' && 'border-b-2 pb-4'} `}>
          <Link to="/">
            <h3 className="font-bold text-3xl font-primary text-black">
              Efunsewa <span className="text-primary">Herbs</span>

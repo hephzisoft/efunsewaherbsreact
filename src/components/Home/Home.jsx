@@ -1,8 +1,8 @@
-import { hero3 } from "../assets/images";
-import { products, services } from "../constants";
-import Button from "./Button";
-import Card from "./Card";
-import Service from "./Service";
+import { hero3 } from "../../assets/images";
+import { products, services } from "../../constants";
+import Button from "../Button";
+import Card from "../Card";
+import Service from "../Service";
 
 
 const Home = () => {
