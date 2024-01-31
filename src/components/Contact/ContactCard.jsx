@@ -13,7 +13,7 @@ const ContactCard = ({icon, title, desc}) => {
     icon = faEnvelope
   }
   return (
-    <div className='flex items-center mt-10'>
+    <div className='md:flex items-center mt-10 sm:block'>
       <div >
       <FontAwesomeIcon icon={icon} className='text-xl text-primary'/>
       </div>

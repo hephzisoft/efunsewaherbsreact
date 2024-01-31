@@ -37,3 +37,8 @@ export const contact = [
         icon:'envelope', title:'EMAIL US', desc: 'efunsewaherbs@gmail.com'
     }
 ]
+
+
+export const socialMedia = [
+    'facebook','twitter','instagram','youtube','tiktok','thread'
+]

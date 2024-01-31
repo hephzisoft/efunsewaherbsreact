@@ -28,7 +28,7 @@ const Home = () => {
           <Button text="Shop Now" color="white" bgColor="primary" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 text-center sm:place-items-center  lg:grid-cols-3 gap-10 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-center sm:place-items-center lg:grid-cols-3 md:gap-[2rem] mt-10">
           {products.map((prod) => {
             return (
               <Card
