@@ -32,7 +32,7 @@ export const contact = [
     {
         icon:"location-dot", title:'VISIT US', desc: '1234 Somewhere Road, Nashville, TN 00000'
     },{
-        icon :'phone',title:'CALL US', desc: '+00 0000 000000'
+        icon :'phone',title:'CALL US', desc: '+234 80333 43807'
     },{
         icon:'envelope', title:'EMAIL US', desc: 'efunsewaherbs@gmail.com'
     }

@@ -17,7 +17,7 @@ const Contact = () => {
     <div className="md:flex sm:block  lg:mx-7 sm:mx-0 mt-16 ">
       <div className="border-r sm:ps-0 md:ps-[3rem] sm:text-center md:text-left sm:w-full md:w-[50%] ">
         <h1 className="font-unna sm:text-4xl md:text-6xl mb-5">Get In Touch</h1>
-        <p className="font-dmsans sm:w-full md:w-[20rem] ">
+        <p className="font-dmsans sm:w-full md:w-[30rem] ">
           Sit vulputate faucibus eget eget scelerisque faucibus malesuada nullam
           mollis ut montes, dui scelerisque ornare.
         </p>
@@ -33,9 +33,9 @@ const Contact = () => {
             );
           })}
         </div>
-        <div className="mt-10 border-t sm:border-b md:border-b-0 pt-5 sm:items-center  md:items-start  sm:w-full md:w-[20rem]">
+        <div className="mt-10 border-t sm:border-b md:border-b-0 pt-5 sm:items-center  lg:items-start  sm:w-full md:w-[20rem]">
           <p className="font-unna text-xl tracking-wider">FOLLOW US</p>
-          <div className="sm:justify-around px-10 sm:my-5 sm flex">
+          <div className="sm:justify-around sm:px-10 md:px-0 sm:my-5 sm:flex">
             {socialMedia.map((media) => {
               var icon = fa0;
               switch (media) {
@@ -73,8 +73,8 @@ const Contact = () => {
         </div>
       </div>
       <div className="sm:w-full md:w-[50%] sm:ps-0 sm:pe-0 md:ps-[1.4rem] md:pe-[1rem]">
-        <h5 className="font-unna text-3xl mb-4">Drop us a line or two</h5>
-        <form action="">
+        <h5 className="font-unna text-3xl mb-4 sm:text-center">Drop us a line or two</h5>
+        <form action="" className="">
           <div className="mb-6">
             <label
               className="block text-gray-700 text-sm font-bold mb-2 font-dmsans"
